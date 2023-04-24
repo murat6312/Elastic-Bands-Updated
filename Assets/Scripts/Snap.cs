@@ -166,7 +166,7 @@ public class Snap : MonoBehaviour
         yield return new WaitForSeconds(time);
         if(thisSphere.name == "StartSphere")
         {
-            foreach (RaycastHit hit in hits) // nadiren object bulunamadı hatası veriyo consolda ama herşey düzgün çalışıyo yinede garip!
+            foreach (RaycastHit hit in hits) // nadiren object bulunamadı hatası veriyo consolda ama herşey düzgün çalışıyo yinede garip!(herşey düzgün çalışmıyomuş)
             {
                 GameObject obj = hit.collider.gameObject;
                 obj.GetComponent<ObiCollider>().enabled = false;
