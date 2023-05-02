@@ -301,7 +301,6 @@ MonoBehaviour:
   audioSource: {fileID: 715021084028208356, guid: d891ce4fe903cff4eb69d7b7787b5bdc, type: 3}
   fingerState: 
   snapped: 0
-  snapTogether: 0
   rope: {fileID: 0}
 --- !u!1 &6754782335242952171
 GameObject:
@@ -1717,5 +1716,4 @@ MonoBehaviour:
   audioSource: {fileID: 715021084028208356, guid: d891ce4fe903cff4eb69d7b7787b5bdc, type: 3}
   fingerState: 
   snapped: 0
-  snapTogether: 0
   rope: {fileID: 0}
